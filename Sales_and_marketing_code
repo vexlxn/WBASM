@@ -6,7 +6,7 @@
     <title>Sales and Marketing App</title>
 </head>
 <body>
-    <h2>Product Listing</h2>
+    <h3>Product Listing</h3>
     <ul>
         {% for product in products %}
             <li>{{ product.name }} - ${{ product.price }}</li>
